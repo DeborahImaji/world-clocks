@@ -7,6 +7,10 @@
     <title>🕛 World Clocks | Deborah Imaji</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
 </head>
 
 <body>
@@ -17,25 +21,25 @@
 
         <select>
             <option value="">Choose a city...</option>
-            <option value="">Toronto</option>
-            <option value="">Seoul</option>
             <option value="">Tokyo</option>
+            <option value="">London</option>
+            <option value="">New York</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="toronto">
             <div>
                 <h2>Toronto 🇨🇦</h2>
-                <div class="date">August 15th 2022</div>
+                <div class="date"></div>
             </div>
-            <div class="time">1:48:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="seoul">
             <div>
                 <h2>Seoul 🇰🇷</h2>
-                <div class="date">August 15th 2022</div>
+                <div class="date"></div>
             </div>
-            <div class="time">1:48:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
 
     </div>
